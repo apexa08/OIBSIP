@@ -1,0 +1,37 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  margin-top: 100px;
+  background-color: #f0f4ff;   /* light blue background */
+}
+
+h2 {
+  color: #3f51b5;              /* heading color */
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 8px;
+  width: 200px;
+  border: 1px solid #3f51b5;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 20px;
+  cursor: pointer;
+  background-color: #3f51b5;   /* button color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #303f9f;
+}
+
+a {
+  color: #3f51b5;
+  font-weight: bold;
+}
