@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+}
+
+header {
+    background: #fff;
+    color: #333;
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+
+/* FORM BOX */
+.form-box {
+    background: #ffffff;
+    color: #333;
+    padding: 20px;
+    width: 28%;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.form-box h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #764ba2;
+}
+
+.form-box label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.form-box input,
+.form-box textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.form-box input:focus,
+.form-box textarea:focus {
+    border-color: #764ba2;
+    box-shadow: 0 0 6px rgba(118,75,162,0.5);
+}
+
+.form-box textarea {
+    resize: none;
+    height: 90px;
+}
+
+.form-box button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-box button:hover {
+    opacity: 0.9;
+}
+
+/* TASK SECTIONS */
+.task-section {
+    width: 36%;
+}
+
+.task-section h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* TASK CARD */
+.task {
+    background: #fff;
+    color: #333;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.task small {
+    color: gray;
+}
+
+/* BUTTONS */
+.actions {
+    margin-top: 8px;
+}
+
+.actions button {
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.complete {
+    background: #28a745;
+    color: #fff;
+}
+
+.edit {
+    background: #ffc107;
+    color: #000;
+}
+
+.delete {
+    background: #dc3545;
+    color: #fff;
+}
